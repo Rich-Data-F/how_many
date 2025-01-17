@@ -1,0 +1,11 @@
+.env
+/Data/transformed_data/*
+/Data/to_explore
+/Data/rough_data/*
+/Data/projections/*
+/Data/external_data/*
+/Scripts/Backups
+/Scripts/*.ipynb
+/Models/*
+/venv
+

@@ -1,0 +1,13 @@
+python-dotenv
+requests
+datetime
+sqlalchemy
+pandas
+openmeteo-requests
+requests-cache
+retry-requests
+numpy
+prophet
+openpyxl
+scikit-learn
+streamlit
