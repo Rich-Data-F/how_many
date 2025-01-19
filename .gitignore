@@ -6,6 +6,5 @@
 /Data/external_data/*
 /Scripts/Backups
 /Scripts/*.ipynb
-/Models/*
+/Models/*.pkl
 /venv
-
