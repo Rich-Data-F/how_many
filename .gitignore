@@ -8,3 +8,6 @@
 /Scripts/*.ipynb
 /Models/*.pkl
 /venv
+!/Data/transformed_data/historical_sales_data.csv
+!/Data/transformed_data/categorised_articles.xlsx
+!/Data/to_explore/unique_article_names_for_mapping.xlsx
