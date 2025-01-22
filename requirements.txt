@@ -13,3 +13,4 @@ scikit-learn
 streamlit
 plotly
 bokeh==2.4.3
+xlrd >= 2.0.1
