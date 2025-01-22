@@ -123,7 +123,8 @@ def load_holidays_date():
 
 def clean_article_names():
     # Merge the mapping with the all_pos_sales_units_prices dataframe
-    mapping = pd.read_excel(os.getcwd(), 'Data', 'to_explore','unique_article_names_for_mapping.xlsx')
+    mapping_path=os.path.join(os.getcwd(), 'Data', 'to_explore','unique_article_names_for_mapping.xlsx')
+    mapping = pd.read_excel(mapping_path)
     historical_sales_units_prices = historical_sales_data.merge(mapping, left_on='Article_name',\
     right_on='Initial_article_name', how='left')
     # Replace the Article_name with the renamed_article
