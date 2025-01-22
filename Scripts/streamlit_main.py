@@ -527,36 +527,39 @@ def generate_sales_projections():
         None: Displays projections in Streamlit.
     """
     
-    st.subheader("In the table that can be dowloaded at the bottom, you can report your decision on production quantity in lat column based on available data")
+    st.subheader("A Table can be dowloaded at the bottom of the page")
+    st.subheader("Last column is intended to eport your decision on production quantity based on available data")
+    
     if not selected_articles:
-        st.warning("Please select at least one article to generate projections.")
-    else:
-        print(selected_articles)  # Debugging step
+        st.warning("Please select at least one article to generate a projection.")
+        return
+    
+    print(selected_articles)  # Debugging step
 
-        # Load models from fitted_models_results.pkl
-        with open(model_path, 'rb') as f:
-            fitted_models_results = pickle.load(f)
+    # Load models from fitted_models_results.pkl
+    with open(model_path, 'rb') as f:
+        fitted_models_results = pickle.load(f)
 
-        # Prepare for projections
-        num_days = st.number_input(
-            'Number of days ahead (from latest actual data date) for the projection date:',
-            min_value=1,
-            max_value=7,
-            value=1,
-            key='num_days_projection'
-        )
-        projection_date = st.session_state.latest_data_date + timedelta(days=num_days)
-        st.write(f"Projection Date: {projection_date.strftime('%A, %d %B %Y')}")
-        # Initialize results list
-        results = []
+    # Prepare for projections
+    num_days = st.number_input(
+        'Number of days ahead (from latest actual data date) for the projection date:',
+        min_value=1,
+        max_value=365,
+        value=1,
+        key='num_days_projection'
+    )
+    projection_date = st.session_state.latest_data_date + timedelta(days=num_days)
+    st.write(f"Projection Date: {projection_date.strftime('%A, %d %B %Y')}")
+    
+    # Initialize results list
+    results = []
 
-        # Process each selected article
-        for article in sorted(selected_articles):
-            model_details = fitted_models_results.get(article)
-            if model_details is None:
-                st.warning(f"No model found for {article}. Skipping...")
-                continue
-
+    # Process each selected article
+    for article in sorted(selected_articles):
+        model_details = fitted_models_results.get(article)
+        predicted_sales=None
+        
+        if model_details is not None:
             # Access the Prophet model
             prophet_model = model_details['model']
 
@@ -564,23 +567,23 @@ def generate_sales_projections():
                 st.warning(f"No model found for {article}. Skipping...")
                 continue
 
-            # Make future predictions
-            future = prophet_model.make_future_dataframe(periods=num_days)
-            forecast = prophet_model.predict(future)
-            predicted_sales = forecast.loc[forecast['ds'] == projection_date, 'yhat'].values
+                # Make future predictions
+                future = prophet_model.make_future_dataframe(periods=num_days)
+                forecast = prophet_model.predict(future)
+                predicted_sales = forecast.loc[forecast['ds'] == projection_date, 'yhat'].values
 
-            if len(predicted_sales) == 0:
-                st.warning(f"No prediction available for {article} on {projection_date.date()}.")
-                continue
+                if len(predicted_sales) > 0:
+                    predicted_sales = round(predicted_sales[0], 2)
 
-            predicted_sales = round(predicted_sales[0], 2)
+                if predicted_sales==None:
+                    logging.info(f"No prediction available for {article} on {projection_date.date()}.")
 
             # Filter historical data for calculations
             article_data = st.session_state.filtered_data[
                 st.session_state.filtered_data['Article_name'] == article
             ]
-            print(article_data.head())  # Debugging step
             article_data['Date'] = pd.to_datetime(article_data['Date'], format='mixed', dayfirst=True)
+            print(article_data.head())  # Debugging step
 
             # Initialize a dictionary to store past sales
             past_sales = {}
@@ -602,6 +605,7 @@ def generate_sales_projections():
             day_N_5_sales = past_sales.get('day_N_5_sales')
             day_N_6_sales = past_sales.get('day_N_6_sales')
             day_N_7_sales = past_sales.get('day_N_7_sales')
+
             last_7_days = article_data[
                 (article_data['Date'] >= projection_date - timedelta(days=7)) &
                 (article_data['Date'] < projection_date)
@@ -665,25 +669,27 @@ def generate_sales_projections():
                 'Decided Quantity for Production': ''
             })
 
-        # Convert results to DataFrame and sort by Category and Article Name
-        results_df = pd.DataFrame(results).sort_values(by='Article Name')
+    #        results_df[col] = results_df[col].apply(lambda x: round(x, 2) if pd.notnull(x) else x)
 
-        # Display results
-        st.subheader("Sales Projections")
-        st.dataframe(results_df)
+    # Convert results to DataFrame and sort by Category and Article Name
+    results_df = pd.DataFrame(results).sort_values(by=['Category','Article Name'])
 
-        # Optionally, allow download of results as Excel file
-        output = BytesIO()
-        with pd.ExcelWriter(output, engine='openpyxl') as writer:
-            results_df.to_excel(writer, index=False, sheet_name='Projections')
-        output.seek(0)
+    # Display results
+    st.subheader("Sales Projections")
+    st.dataframe(results_df)
 
-        st.download_button(
-            label="Download Projections as Excel",
-            data=output,
-            file_name=f'sales_projections_{projection_date.strftime("%Y%m%d")}.xlsx',
-            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-        )
+    # Optionally, allow download of results as Excel file
+    output = BytesIO()
+    with pd.ExcelWriter(output, engine='openpyxl') as writer:
+        results_df.to_excel(writer, index=False, sheet_name='Projections')
+    output.seek(0)
+
+    st.download_button(
+        label="Download Projections as Excel",
+        data=output,
+        file_name=f'sales_projections_{projection_date.strftime("%Y%m%d")}.xlsx',
+        mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+    )
 
 
 def add_bi_weekly_sales():
