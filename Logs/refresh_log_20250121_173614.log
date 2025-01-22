@@ -1,0 +1,15 @@
+2025-01-21 17:36:31,470 - ERROR - Unsupported file format uploaded.
+2025-01-21 17:36:52,859 - INFO - Successfully loaded file: Analyse15j_Fontenelles_IM_9Jan2025.csv
+2025-01-21 17:36:52,897 - INFO - Aggregated bi-weekly data by 'Article'. Rows after aggregation: 119
+2025-01-21 17:36:52,905 - INFO - Formatted bi-weekly data into the required structure.
+2025-01-21 17:36:52,906 - INFO - Filtered new entries after cutoff date (2025-01-09 00:00:00). Rows after filtering: 0
+2025-01-21 17:36:52,916 - INFO - Merged new entries with historical data to check for duplicates and conflicts.
+2025-01-21 17:36:52,917 - INFO - Identified 0 duplicates, 0 conflicts, and 0 new rows.
+2025-01-21 17:36:52,917 - INFO - No new entries were added.
+2025-01-21 17:37:27,767 - INFO - Successfully loaded file: Analyse15j_Fontenelles_IM_9Jan2025.csv
+2025-01-21 17:37:27,769 - INFO - Aggregated bi-weekly data by 'Article'. Rows after aggregation: 119
+2025-01-21 17:37:27,773 - INFO - Formatted bi-weekly data into the required structure.
+2025-01-21 17:37:27,774 - INFO - Filtered new entries after cutoff date (2025-01-09 00:00:00). Rows after filtering: 0
+2025-01-21 17:37:27,777 - INFO - Merged new entries with historical data to check for duplicates and conflicts.
+2025-01-21 17:37:27,778 - INFO - Identified 0 duplicates, 0 conflicts, and 0 new rows.
+2025-01-21 17:37:27,778 - INFO - No new entries were added.

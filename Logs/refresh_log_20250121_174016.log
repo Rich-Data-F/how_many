@@ -1,0 +1,466 @@
+2025-01-21 17:40:30,550 - INFO - Successfully loaded file: Analyse15j_Fontenelles_IM_9Jan2025.csv
+2025-01-21 17:40:30,576 - INFO - Aggregated bi-weekly data by 'Article'. Rows after aggregation: 119
+2025-01-21 17:40:30,584 - INFO - Formatted bi-weekly data into the required structure.
+2025-01-21 17:40:30,585 - INFO - Filtered new entries after cutoff date (2025-01-09 00:00:00). Rows after filtering: 1547
+2025-01-21 17:40:30,604 - INFO - Merged new entries with historical data to check for duplicates and conflicts.
+2025-01-21 17:40:30,606 - INFO - Identified 0 duplicates, 0 conflicts, and 1547 new rows.
+2025-01-21 17:40:31,507 - INFO - New entries successfully added to historical_sales_data.csv.
+2025-01-21 17:41:58,624 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:41:58,690 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/nxutikds.json
+2025-01-21 17:41:58,718 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/1myzrldy.json
+2025-01-21 17:41:58,720 - DEBUG - idx 0
+2025-01-21 17:41:58,721 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:41:58,721 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=87689', 'data', 'file=/tmp/tmpd4fko9aw/nxutikds.json', 'init=/tmp/tmpd4fko9aw/1myzrldy.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modeldjw7haxy/prophet_model-20250121174158.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:41:58,722 - INFO - Chain [1] start processing
+2025-01-21 17:41:58,937 - INFO - Chain [1] done processing
+2025-01-21 17:41:59,194 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:41:59,206 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/y0a5_qve.json
+2025-01-21 17:41:59,227 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/xrk5makk.json
+2025-01-21 17:41:59,231 - DEBUG - idx 0
+2025-01-21 17:41:59,232 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:41:59,232 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=45463', 'data', 'file=/tmp/tmpd4fko9aw/y0a5_qve.json', 'init=/tmp/tmpd4fko9aw/xrk5makk.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modell4g7ybhl/prophet_model-20250121174159.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:41:59,233 - INFO - Chain [1] start processing
+2025-01-21 17:41:59,322 - INFO - Chain [1] done processing
+2025-01-21 17:41:59,683 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:41:59,698 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/4avzucad.json
+2025-01-21 17:41:59,718 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/iivt9_zz.json
+2025-01-21 17:41:59,720 - DEBUG - idx 0
+2025-01-21 17:41:59,720 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:41:59,721 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=74820', 'data', 'file=/tmp/tmpd4fko9aw/4avzucad.json', 'init=/tmp/tmpd4fko9aw/iivt9_zz.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model7xjxw2iu/prophet_model-20250121174159.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:41:59,721 - INFO - Chain [1] start processing
+2025-01-21 17:41:59,816 - INFO - Chain [1] done processing
+2025-01-21 17:42:00,115 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:00,131 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/vva9na9a.json
+2025-01-21 17:42:00,156 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/78iyjwc0.json
+2025-01-21 17:42:00,161 - DEBUG - idx 0
+2025-01-21 17:42:00,163 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:00,165 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=66857', 'data', 'file=/tmp/tmpd4fko9aw/vva9na9a.json', 'init=/tmp/tmpd4fko9aw/78iyjwc0.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model1jjth87n/prophet_model-20250121174200.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:00,166 - INFO - Chain [1] start processing
+2025-01-21 17:42:00,271 - INFO - Chain [1] done processing
+2025-01-21 17:42:00,551 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:00,564 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/ebzquk28.json
+2025-01-21 17:42:00,586 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/zhai3qp6.json
+2025-01-21 17:42:00,587 - DEBUG - idx 0
+2025-01-21 17:42:00,588 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:00,588 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=1299', 'data', 'file=/tmp/tmpd4fko9aw/ebzquk28.json', 'init=/tmp/tmpd4fko9aw/zhai3qp6.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model6i8hlh9a/prophet_model-20250121174200.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:00,588 - INFO - Chain [1] start processing
+2025-01-21 17:42:00,680 - INFO - Chain [1] done processing
+2025-01-21 17:42:01,099 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:01,113 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/_6178n_c.json
+2025-01-21 17:42:01,134 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/fmiebhqs.json
+2025-01-21 17:42:01,136 - DEBUG - idx 0
+2025-01-21 17:42:01,137 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:01,137 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=17902', 'data', 'file=/tmp/tmpd4fko9aw/_6178n_c.json', 'init=/tmp/tmpd4fko9aw/fmiebhqs.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model3djip4rf/prophet_model-20250121174201.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:01,138 - INFO - Chain [1] start processing
+2025-01-21 17:42:01,241 - INFO - Chain [1] done processing
+2025-01-21 17:42:01,505 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:01,519 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/9e95rtf5.json
+2025-01-21 17:42:01,563 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/7vcj9_h7.json
+2025-01-21 17:42:01,565 - DEBUG - idx 0
+2025-01-21 17:42:01,565 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:01,565 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=42936', 'data', 'file=/tmp/tmpd4fko9aw/9e95rtf5.json', 'init=/tmp/tmpd4fko9aw/7vcj9_h7.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model7pp_ezqq/prophet_model-20250121174201.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:01,566 - INFO - Chain [1] start processing
+2025-01-21 17:42:01,668 - INFO - Chain [1] done processing
+2025-01-21 17:42:01,938 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:01,954 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/nbfk6p6r.json
+2025-01-21 17:42:01,995 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/bttoz165.json
+2025-01-21 17:42:01,997 - DEBUG - idx 0
+2025-01-21 17:42:01,998 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:01,998 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=12369', 'data', 'file=/tmp/tmpd4fko9aw/nbfk6p6r.json', 'init=/tmp/tmpd4fko9aw/bttoz165.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modeluxvbhy5s/prophet_model-20250121174201.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:01,998 - INFO - Chain [1] start processing
+2025-01-21 17:42:02,114 - INFO - Chain [1] done processing
+2025-01-21 17:42:02,379 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:02,399 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/68azh98r.json
+2025-01-21 17:42:02,441 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/ytycmd7e.json
+2025-01-21 17:42:02,442 - DEBUG - idx 0
+2025-01-21 17:42:02,443 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:02,443 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=32176', 'data', 'file=/tmp/tmpd4fko9aw/68azh98r.json', 'init=/tmp/tmpd4fko9aw/ytycmd7e.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model9y46_3gf/prophet_model-20250121174202.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:02,444 - INFO - Chain [1] start processing
+2025-01-21 17:42:02,549 - INFO - Chain [1] done processing
+2025-01-21 17:42:02,896 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:02,908 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/ywejdast.json
+2025-01-21 17:42:02,931 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/7n3o_g6d.json
+2025-01-21 17:42:02,933 - DEBUG - idx 0
+2025-01-21 17:42:02,933 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:02,933 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=66132', 'data', 'file=/tmp/tmpd4fko9aw/ywejdast.json', 'init=/tmp/tmpd4fko9aw/7n3o_g6d.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modeltn37qmhh/prophet_model-20250121174202.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:02,934 - INFO - Chain [1] start processing
+2025-01-21 17:42:03,036 - INFO - Chain [1] done processing
+2025-01-21 17:42:03,316 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:03,345 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/12aqv2id.json
+2025-01-21 17:42:03,369 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/bqr7ss9o.json
+2025-01-21 17:42:03,371 - DEBUG - idx 0
+2025-01-21 17:42:03,371 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:03,372 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=44070', 'data', 'file=/tmp/tmpd4fko9aw/12aqv2id.json', 'init=/tmp/tmpd4fko9aw/bqr7ss9o.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelzzhjm6hj/prophet_model-20250121174203.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:03,372 - INFO - Chain [1] start processing
+2025-01-21 17:42:03,456 - INFO - Chain [1] done processing
+2025-01-21 17:42:03,704 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:03,717 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/3d4x4y4z.json
+2025-01-21 17:42:03,758 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/4b6myd94.json
+2025-01-21 17:42:03,759 - DEBUG - idx 0
+2025-01-21 17:42:03,759 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:03,759 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=2995', 'data', 'file=/tmp/tmpd4fko9aw/3d4x4y4z.json', 'init=/tmp/tmpd4fko9aw/4b6myd94.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model3zxeiwai/prophet_model-20250121174203.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:03,760 - INFO - Chain [1] start processing
+2025-01-21 17:42:03,887 - INFO - Chain [1] done processing
+2025-01-21 17:42:04,147 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:04,159 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/vtrre_qz.json
+2025-01-21 17:42:04,276 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/4b3poyv8.json
+2025-01-21 17:42:04,277 - DEBUG - idx 0
+2025-01-21 17:42:04,278 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:04,278 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=51322', 'data', 'file=/tmp/tmpd4fko9aw/vtrre_qz.json', 'init=/tmp/tmpd4fko9aw/4b3poyv8.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model6ckcy1c0/prophet_model-20250121174204.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:04,278 - INFO - Chain [1] start processing
+2025-01-21 17:42:04,384 - INFO - Chain [1] done processing
+2025-01-21 17:42:04,667 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:04,682 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/7s2imf42.json
+2025-01-21 17:42:04,725 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/cmg2jqw3.json
+2025-01-21 17:42:04,727 - DEBUG - idx 0
+2025-01-21 17:42:04,727 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:04,728 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=91057', 'data', 'file=/tmp/tmpd4fko9aw/7s2imf42.json', 'init=/tmp/tmpd4fko9aw/cmg2jqw3.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelml1cxpom/prophet_model-20250121174204.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:04,728 - INFO - Chain [1] start processing
+2025-01-21 17:42:04,847 - INFO - Chain [1] done processing
+2025-01-21 17:42:05,115 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:05,128 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/o461xgw1.json
+2025-01-21 17:42:05,149 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/8rdhijrs.json
+2025-01-21 17:42:05,151 - DEBUG - idx 0
+2025-01-21 17:42:05,152 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:05,152 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=26949', 'data', 'file=/tmp/tmpd4fko9aw/o461xgw1.json', 'init=/tmp/tmpd4fko9aw/8rdhijrs.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelw0sfqmdy/prophet_model-20250121174205.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:05,152 - INFO - Chain [1] start processing
+2025-01-21 17:42:05,245 - INFO - Chain [1] done processing
+2025-01-21 17:42:05,511 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:05,524 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/shlutcg6.json
+2025-01-21 17:42:05,577 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/5s_tbsm0.json
+2025-01-21 17:42:05,579 - DEBUG - idx 0
+2025-01-21 17:42:05,579 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:05,579 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=17624', 'data', 'file=/tmp/tmpd4fko9aw/shlutcg6.json', 'init=/tmp/tmpd4fko9aw/5s_tbsm0.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modeldbbwxid0/prophet_model-20250121174205.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:05,580 - INFO - Chain [1] start processing
+2025-01-21 17:42:05,684 - INFO - Chain [1] done processing
+2025-01-21 17:42:06,094 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:06,108 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/ma7q8fni.json
+2025-01-21 17:42:06,130 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/mhl4mpi1.json
+2025-01-21 17:42:06,132 - DEBUG - idx 0
+2025-01-21 17:42:06,132 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:06,133 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=45007', 'data', 'file=/tmp/tmpd4fko9aw/ma7q8fni.json', 'init=/tmp/tmpd4fko9aw/mhl4mpi1.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model_vmiis2t/prophet_model-20250121174206.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:06,133 - INFO - Chain [1] start processing
+2025-01-21 17:42:06,219 - INFO - Chain [1] done processing
+2025-01-21 17:42:06,492 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:06,768 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:07,056 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:07,069 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/kbwd6y1w.json
+2025-01-21 17:42:07,101 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/da93tre9.json
+2025-01-21 17:42:07,103 - DEBUG - idx 0
+2025-01-21 17:42:07,103 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:07,103 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=32236', 'data', 'file=/tmp/tmpd4fko9aw/kbwd6y1w.json', 'init=/tmp/tmpd4fko9aw/da93tre9.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model7fh6t4v5/prophet_model-20250121174207.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:07,104 - INFO - Chain [1] start processing
+2025-01-21 17:42:07,190 - INFO - Chain [1] done processing
+2025-01-21 17:42:07,546 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:07,560 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/zwi4x59p.json
+2025-01-21 17:42:07,582 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/l4rpqzm_.json
+2025-01-21 17:42:07,584 - DEBUG - idx 0
+2025-01-21 17:42:07,584 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:07,584 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=37360', 'data', 'file=/tmp/tmpd4fko9aw/zwi4x59p.json', 'init=/tmp/tmpd4fko9aw/l4rpqzm_.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelc_pakgn6/prophet_model-20250121174207.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:07,585 - INFO - Chain [1] start processing
+2025-01-21 17:42:07,707 - INFO - Chain [1] done processing
+2025-01-21 17:42:07,965 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:07,979 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/669no4zl.json
+2025-01-21 17:42:08,023 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/vpzqmvij.json
+2025-01-21 17:42:08,025 - DEBUG - idx 0
+2025-01-21 17:42:08,025 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:08,026 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=72996', 'data', 'file=/tmp/tmpd4fko9aw/669no4zl.json', 'init=/tmp/tmpd4fko9aw/vpzqmvij.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelkzbdoex8/prophet_model-20250121174208.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:08,026 - INFO - Chain [1] start processing
+2025-01-21 17:42:08,147 - INFO - Chain [1] done processing
+2025-01-21 17:42:08,432 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:08,448 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/0i7l97hl.json
+2025-01-21 17:42:08,523 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/a4ikqd9_.json
+2025-01-21 17:42:08,525 - DEBUG - idx 0
+2025-01-21 17:42:08,526 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:08,526 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=67136', 'data', 'file=/tmp/tmpd4fko9aw/0i7l97hl.json', 'init=/tmp/tmpd4fko9aw/a4ikqd9_.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modeleypl37f_/prophet_model-20250121174208.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:08,526 - INFO - Chain [1] start processing
+2025-01-21 17:42:08,628 - INFO - Chain [1] done processing
+2025-01-21 17:42:09,020 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:09,034 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/4aah5cmw.json
+2025-01-21 17:42:09,055 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/_7gyywe9.json
+2025-01-21 17:42:09,057 - DEBUG - idx 0
+2025-01-21 17:42:09,057 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:09,057 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=74927', 'data', 'file=/tmp/tmpd4fko9aw/4aah5cmw.json', 'init=/tmp/tmpd4fko9aw/_7gyywe9.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model2uicfup9/prophet_model-20250121174209.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:09,058 - INFO - Chain [1] start processing
+2025-01-21 17:42:09,133 - INFO - Chain [1] done processing
+2025-01-21 17:42:09,393 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:09,410 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/y1h9864r.json
+2025-01-21 17:42:09,433 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/kycroib8.json
+2025-01-21 17:42:09,434 - DEBUG - idx 0
+2025-01-21 17:42:09,435 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:09,435 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=85075', 'data', 'file=/tmp/tmpd4fko9aw/y1h9864r.json', 'init=/tmp/tmpd4fko9aw/kycroib8.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model1dov8sa0/prophet_model-20250121174209.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:09,435 - INFO - Chain [1] start processing
+2025-01-21 17:42:09,541 - INFO - Chain [1] done processing
+2025-01-21 17:42:09,827 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:09,843 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/akaqr792.json
+2025-01-21 17:42:09,866 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/g4wtff_u.json
+2025-01-21 17:42:09,867 - DEBUG - idx 0
+2025-01-21 17:42:09,868 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:09,868 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=41990', 'data', 'file=/tmp/tmpd4fko9aw/akaqr792.json', 'init=/tmp/tmpd4fko9aw/g4wtff_u.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model_e2k1sdj/prophet_model-20250121174209.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:09,869 - INFO - Chain [1] start processing
+2025-01-21 17:42:09,954 - INFO - Chain [1] done processing
+2025-01-21 17:42:10,215 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:10,227 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/xmt9tpjd.json
+2025-01-21 17:42:10,249 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/ddh8x2rb.json
+2025-01-21 17:42:10,250 - DEBUG - idx 0
+2025-01-21 17:42:10,251 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:10,251 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=7046', 'data', 'file=/tmp/tmpd4fko9aw/xmt9tpjd.json', 'init=/tmp/tmpd4fko9aw/ddh8x2rb.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model88ktbwno/prophet_model-20250121174210.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:10,252 - INFO - Chain [1] start processing
+2025-01-21 17:42:10,377 - INFO - Chain [1] done processing
+2025-01-21 17:42:10,742 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:10,755 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/5llmxlbu.json
+2025-01-21 17:42:10,777 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/u1ijb3ym.json
+2025-01-21 17:42:10,779 - DEBUG - idx 0
+2025-01-21 17:42:10,779 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:10,780 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=80221', 'data', 'file=/tmp/tmpd4fko9aw/5llmxlbu.json', 'init=/tmp/tmpd4fko9aw/u1ijb3ym.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelzcywybm0/prophet_model-20250121174210.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:10,780 - INFO - Chain [1] start processing
+2025-01-21 17:42:10,865 - INFO - Chain [1] done processing
+2025-01-21 17:42:11,142 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:11,159 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/uzm4ifph.json
+2025-01-21 17:42:11,186 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/3r9acbyr.json
+2025-01-21 17:42:11,187 - DEBUG - idx 0
+2025-01-21 17:42:11,187 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:11,188 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=34145', 'data', 'file=/tmp/tmpd4fko9aw/uzm4ifph.json', 'init=/tmp/tmpd4fko9aw/3r9acbyr.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model429hagff/prophet_model-20250121174211.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:11,188 - INFO - Chain [1] start processing
+2025-01-21 17:42:11,263 - INFO - Chain [1] done processing
+2025-01-21 17:42:11,525 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:11,536 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/6d4qr11g.json
+2025-01-21 17:42:11,557 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/f3f9mnj6.json
+2025-01-21 17:42:11,558 - DEBUG - idx 0
+2025-01-21 17:42:11,559 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:11,560 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=69271', 'data', 'file=/tmp/tmpd4fko9aw/6d4qr11g.json', 'init=/tmp/tmpd4fko9aw/f3f9mnj6.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelauo_n2gf/prophet_model-20250121174211.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:11,560 - INFO - Chain [1] start processing
+2025-01-21 17:42:11,650 - INFO - Chain [1] done processing
+2025-01-21 17:42:11,909 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:11,921 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/vd7i65t2.json
+2025-01-21 17:42:11,951 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/28yrohcb.json
+2025-01-21 17:42:11,952 - DEBUG - idx 0
+2025-01-21 17:42:11,953 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:11,953 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=88091', 'data', 'file=/tmp/tmpd4fko9aw/vd7i65t2.json', 'init=/tmp/tmpd4fko9aw/28yrohcb.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelakgol12z/prophet_model-20250121174211.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:11,954 - INFO - Chain [1] start processing
+2025-01-21 17:42:12,062 - INFO - Chain [1] done processing
+2025-01-21 17:42:12,433 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:12,446 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/6ndoorgj.json
+2025-01-21 17:42:12,470 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/1hhzug2h.json
+2025-01-21 17:42:12,471 - DEBUG - idx 0
+2025-01-21 17:42:12,471 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:12,472 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=87154', 'data', 'file=/tmp/tmpd4fko9aw/6ndoorgj.json', 'init=/tmp/tmpd4fko9aw/1hhzug2h.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelfeyybn65/prophet_model-20250121174212.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:12,472 - INFO - Chain [1] start processing
+2025-01-21 17:42:12,584 - INFO - Chain [1] done processing
+2025-01-21 17:42:12,845 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:12,859 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/1pw5u2g9.json
+2025-01-21 17:42:12,885 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/5prvjwn6.json
+2025-01-21 17:42:12,887 - DEBUG - idx 0
+2025-01-21 17:42:12,887 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:12,888 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=59806', 'data', 'file=/tmp/tmpd4fko9aw/1pw5u2g9.json', 'init=/tmp/tmpd4fko9aw/5prvjwn6.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelrql6srsn/prophet_model-20250121174212.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:12,888 - INFO - Chain [1] start processing
+2025-01-21 17:42:12,977 - INFO - Chain [1] done processing
+2025-01-21 17:42:13,263 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:13,285 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/9eb9culf.json
+2025-01-21 17:42:13,312 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/ykkzu1ov.json
+2025-01-21 17:42:13,314 - DEBUG - idx 0
+2025-01-21 17:42:13,314 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:13,315 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=91600', 'data', 'file=/tmp/tmpd4fko9aw/9eb9culf.json', 'init=/tmp/tmpd4fko9aw/ykkzu1ov.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model_yunmesl/prophet_model-20250121174213.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:13,315 - INFO - Chain [1] start processing
+2025-01-21 17:42:13,419 - INFO - Chain [1] done processing
+2025-01-21 17:42:13,700 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:13,713 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/hbsec6dr.json
+2025-01-21 17:42:13,736 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/qc_lmabi.json
+2025-01-21 17:42:13,737 - DEBUG - idx 0
+2025-01-21 17:42:13,737 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:13,738 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=97068', 'data', 'file=/tmp/tmpd4fko9aw/hbsec6dr.json', 'init=/tmp/tmpd4fko9aw/qc_lmabi.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelcv4xnl3p/prophet_model-20250121174213.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:13,738 - INFO - Chain [1] start processing
+2025-01-21 17:42:13,843 - INFO - Chain [1] done processing
+2025-01-21 17:42:14,209 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:14,224 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/tbzzpy53.json
+2025-01-21 17:42:14,248 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/7cd06wiv.json
+2025-01-21 17:42:14,249 - DEBUG - idx 0
+2025-01-21 17:42:14,249 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:14,250 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=8947', 'data', 'file=/tmp/tmpd4fko9aw/tbzzpy53.json', 'init=/tmp/tmpd4fko9aw/7cd06wiv.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelulv0c9a5/prophet_model-20250121174214.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:14,250 - INFO - Chain [1] start processing
+2025-01-21 17:42:14,342 - INFO - Chain [1] done processing
+2025-01-21 17:42:14,594 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:14,609 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/2cg2kj9v.json
+2025-01-21 17:42:14,637 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/pq1equzy.json
+2025-01-21 17:42:14,638 - DEBUG - idx 0
+2025-01-21 17:42:14,638 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:14,639 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=12431', 'data', 'file=/tmp/tmpd4fko9aw/2cg2kj9v.json', 'init=/tmp/tmpd4fko9aw/pq1equzy.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelzpiw3kgv/prophet_model-20250121174214.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:14,639 - INFO - Chain [1] start processing
+2025-01-21 17:42:14,746 - INFO - Chain [1] done processing
+2025-01-21 17:42:15,023 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:15,037 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/09erlpfy.json
+2025-01-21 17:42:15,060 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/4559ik5f.json
+2025-01-21 17:42:15,061 - DEBUG - idx 0
+2025-01-21 17:42:15,062 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:15,062 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=84064', 'data', 'file=/tmp/tmpd4fko9aw/09erlpfy.json', 'init=/tmp/tmpd4fko9aw/4559ik5f.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model51fjmy6s/prophet_model-20250121174215.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:15,063 - INFO - Chain [1] start processing
+2025-01-21 17:42:15,142 - INFO - Chain [1] done processing
+2025-01-21 17:42:15,397 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:15,419 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/c8z7zyxf.json
+2025-01-21 17:42:15,442 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/en5_17oj.json
+2025-01-21 17:42:15,447 - DEBUG - idx 0
+2025-01-21 17:42:15,447 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:15,448 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=61772', 'data', 'file=/tmp/tmpd4fko9aw/c8z7zyxf.json', 'init=/tmp/tmpd4fko9aw/en5_17oj.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modeloi0o3ued/prophet_model-20250121174215.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:15,448 - INFO - Chain [1] start processing
+2025-01-21 17:42:15,536 - INFO - Chain [1] done processing
+2025-01-21 17:42:15,891 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:15,904 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/5vc7ot74.json
+2025-01-21 17:42:15,927 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/cnkse_5_.json
+2025-01-21 17:42:15,928 - DEBUG - idx 0
+2025-01-21 17:42:15,929 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:15,929 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=2969', 'data', 'file=/tmp/tmpd4fko9aw/5vc7ot74.json', 'init=/tmp/tmpd4fko9aw/cnkse_5_.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model8xh48e8k/prophet_model-20250121174215.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:15,929 - INFO - Chain [1] start processing
+2025-01-21 17:42:16,044 - INFO - Chain [1] done processing
+2025-01-21 17:42:16,341 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:16,354 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/705bqbjo.json
+2025-01-21 17:42:16,381 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/a9tddl4w.json
+2025-01-21 17:42:16,383 - DEBUG - idx 0
+2025-01-21 17:42:16,383 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:16,383 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=26118', 'data', 'file=/tmp/tmpd4fko9aw/705bqbjo.json', 'init=/tmp/tmpd4fko9aw/a9tddl4w.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelcnzxckfu/prophet_model-20250121174216.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:16,383 - INFO - Chain [1] start processing
+2025-01-21 17:42:16,518 - INFO - Chain [1] done processing
+2025-01-21 17:42:16,794 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:17,066 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:17,081 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/l4uyomqj.json
+2025-01-21 17:42:17,103 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/wjn6x9dz.json
+2025-01-21 17:42:17,104 - DEBUG - idx 0
+2025-01-21 17:42:17,105 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:17,105 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=51329', 'data', 'file=/tmp/tmpd4fko9aw/l4uyomqj.json', 'init=/tmp/tmpd4fko9aw/wjn6x9dz.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modeljazrebvb/prophet_model-20250121174217.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:17,105 - INFO - Chain [1] start processing
+2025-01-21 17:42:17,195 - INFO - Chain [1] done processing
+2025-01-21 17:42:17,582 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:17,594 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/gson8ldq.json
+2025-01-21 17:42:17,616 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/duk2ppvl.json
+2025-01-21 17:42:17,619 - DEBUG - idx 0
+2025-01-21 17:42:17,619 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:17,620 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=5403', 'data', 'file=/tmp/tmpd4fko9aw/gson8ldq.json', 'init=/tmp/tmpd4fko9aw/duk2ppvl.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelcusgqtfp/prophet_model-20250121174217.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:17,620 - INFO - Chain [1] start processing
+2025-01-21 17:42:17,737 - INFO - Chain [1] done processing
+2025-01-21 17:42:18,024 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:18,039 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/ewsfwiz9.json
+2025-01-21 17:42:18,061 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/ql0eu9w8.json
+2025-01-21 17:42:18,066 - DEBUG - idx 0
+2025-01-21 17:42:18,069 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:18,070 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=44722', 'data', 'file=/tmp/tmpd4fko9aw/ewsfwiz9.json', 'init=/tmp/tmpd4fko9aw/ql0eu9w8.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelx853psy6/prophet_model-20250121174218.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:18,071 - INFO - Chain [1] start processing
+2025-01-21 17:42:18,177 - INFO - Chain [1] done processing
+2025-01-21 17:42:18,463 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:18,477 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/4_hj3l01.json
+2025-01-21 17:42:18,501 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/o4wk0hxh.json
+2025-01-21 17:42:18,502 - DEBUG - idx 0
+2025-01-21 17:42:18,502 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:18,502 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=78353', 'data', 'file=/tmp/tmpd4fko9aw/4_hj3l01.json', 'init=/tmp/tmpd4fko9aw/o4wk0hxh.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modeliiv8_vtd/prophet_model-20250121174218.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:18,503 - INFO - Chain [1] start processing
+2025-01-21 17:42:18,627 - INFO - Chain [1] done processing
+2025-01-21 17:42:18,908 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:18,920 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/_xumvl89.json
+2025-01-21 17:42:18,941 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/eu5dc6k3.json
+2025-01-21 17:42:18,942 - DEBUG - idx 0
+2025-01-21 17:42:18,942 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:18,943 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=8215', 'data', 'file=/tmp/tmpd4fko9aw/_xumvl89.json', 'init=/tmp/tmpd4fko9aw/eu5dc6k3.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model8ela77k6/prophet_model-20250121174218.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:18,943 - INFO - Chain [1] start processing
+2025-01-21 17:42:19,057 - INFO - Chain [1] done processing
+2025-01-21 17:42:19,441 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:19,460 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/bxr8z5oa.json
+2025-01-21 17:42:19,482 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/lxrdvd7d.json
+2025-01-21 17:42:19,484 - DEBUG - idx 0
+2025-01-21 17:42:19,484 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:19,484 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=73957', 'data', 'file=/tmp/tmpd4fko9aw/bxr8z5oa.json', 'init=/tmp/tmpd4fko9aw/lxrdvd7d.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model_bynvxo6/prophet_model-20250121174219.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:19,485 - INFO - Chain [1] start processing
+2025-01-21 17:42:19,587 - INFO - Chain [1] done processing
+2025-01-21 17:42:19,865 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:19,879 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/4zil1b41.json
+2025-01-21 17:42:19,903 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/tf7wjml6.json
+2025-01-21 17:42:19,904 - DEBUG - idx 0
+2025-01-21 17:42:19,904 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:19,905 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=29654', 'data', 'file=/tmp/tmpd4fko9aw/4zil1b41.json', 'init=/tmp/tmpd4fko9aw/tf7wjml6.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelmbukwqoa/prophet_model-20250121174219.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:19,905 - INFO - Chain [1] start processing
+2025-01-21 17:42:20,012 - INFO - Chain [1] done processing
+2025-01-21 17:42:20,291 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:20,305 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/dbo29emw.json
+2025-01-21 17:42:20,327 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/f6olg6q6.json
+2025-01-21 17:42:20,328 - DEBUG - idx 0
+2025-01-21 17:42:20,329 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:20,329 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=26736', 'data', 'file=/tmp/tmpd4fko9aw/dbo29emw.json', 'init=/tmp/tmpd4fko9aw/f6olg6q6.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelw1hp3y2o/prophet_model-20250121174220.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:20,330 - INFO - Chain [1] start processing
+2025-01-21 17:42:20,428 - INFO - Chain [1] done processing
+2025-01-21 17:42:20,733 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:20,748 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/xs6xmqym.json
+2025-01-21 17:42:20,771 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/wj7ntsxy.json
+2025-01-21 17:42:20,773 - DEBUG - idx 0
+2025-01-21 17:42:20,773 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:20,774 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=93901', 'data', 'file=/tmp/tmpd4fko9aw/xs6xmqym.json', 'init=/tmp/tmpd4fko9aw/wj7ntsxy.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modele9v8_iph/prophet_model-20250121174220.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:20,774 - INFO - Chain [1] start processing
+2025-01-21 17:42:20,862 - INFO - Chain [1] done processing
+2025-01-21 17:42:21,219 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:21,235 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/2cx1xoxn.json
+2025-01-21 17:42:21,270 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/xriyvkqe.json
+2025-01-21 17:42:21,271 - DEBUG - idx 0
+2025-01-21 17:42:21,272 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:21,272 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=65027', 'data', 'file=/tmp/tmpd4fko9aw/2cx1xoxn.json', 'init=/tmp/tmpd4fko9aw/xriyvkqe.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelej2kvsws/prophet_model-20250121174221.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:21,273 - INFO - Chain [1] start processing
+2025-01-21 17:42:21,363 - INFO - Chain [1] done processing
+2025-01-21 17:42:21,633 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:21,647 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/ekcqj13t.json
+2025-01-21 17:42:21,669 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/a2vzwct_.json
+2025-01-21 17:42:21,670 - DEBUG - idx 0
+2025-01-21 17:42:21,671 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:21,671 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=53157', 'data', 'file=/tmp/tmpd4fko9aw/ekcqj13t.json', 'init=/tmp/tmpd4fko9aw/a2vzwct_.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelb7svf0_p/prophet_model-20250121174221.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:21,672 - INFO - Chain [1] start processing
+2025-01-21 17:42:21,764 - INFO - Chain [1] done processing
+2025-01-21 17:42:22,019 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:22,033 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/xuu927pb.json
+2025-01-21 17:42:22,061 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/w7cazr89.json
+2025-01-21 17:42:22,063 - DEBUG - idx 0
+2025-01-21 17:42:22,063 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:22,063 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=61495', 'data', 'file=/tmp/tmpd4fko9aw/xuu927pb.json', 'init=/tmp/tmpd4fko9aw/w7cazr89.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelpx1gwzap/prophet_model-20250121174222.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:22,064 - INFO - Chain [1] start processing
+2025-01-21 17:42:22,167 - INFO - Chain [1] done processing
+2025-01-21 17:42:22,415 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:22,428 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/zyfp779k.json
+2025-01-21 17:42:22,450 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/jxo5fxoq.json
+2025-01-21 17:42:22,451 - DEBUG - idx 0
+2025-01-21 17:42:22,452 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:22,452 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=21541', 'data', 'file=/tmp/tmpd4fko9aw/zyfp779k.json', 'init=/tmp/tmpd4fko9aw/jxo5fxoq.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelc2q4yjlg/prophet_model-20250121174222.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:22,452 - INFO - Chain [1] start processing
+2025-01-21 17:42:22,543 - INFO - Chain [1] done processing
+2025-01-21 17:42:22,915 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:22,929 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/wdjpmibm.json
+2025-01-21 17:42:22,952 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/snql3o0c.json
+2025-01-21 17:42:22,953 - DEBUG - idx 0
+2025-01-21 17:42:22,954 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:22,954 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=84764', 'data', 'file=/tmp/tmpd4fko9aw/wdjpmibm.json', 'init=/tmp/tmpd4fko9aw/snql3o0c.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model96l_a6jv/prophet_model-20250121174222.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:22,954 - INFO - Chain [1] start processing
+2025-01-21 17:42:23,062 - INFO - Chain [1] done processing
+2025-01-21 17:42:23,476 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:23,489 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/z00qsu5o.json
+2025-01-21 17:42:23,532 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/g32zsdyc.json
+2025-01-21 17:42:23,533 - DEBUG - idx 0
+2025-01-21 17:42:23,534 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:23,534 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=620', 'data', 'file=/tmp/tmpd4fko9aw/z00qsu5o.json', 'init=/tmp/tmpd4fko9aw/g32zsdyc.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelkn02egoe/prophet_model-20250121174223.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:23,535 - INFO - Chain [1] start processing
+2025-01-21 17:42:23,631 - INFO - Chain [1] done processing
+2025-01-21 17:42:23,917 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:23,932 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/ru0iqynx.json
+2025-01-21 17:42:23,977 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/w71ksncf.json
+2025-01-21 17:42:23,978 - DEBUG - idx 0
+2025-01-21 17:42:23,979 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:23,979 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=46233', 'data', 'file=/tmp/tmpd4fko9aw/ru0iqynx.json', 'init=/tmp/tmpd4fko9aw/w71ksncf.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_modelda3xutup/prophet_model-20250121174223.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:23,980 - INFO - Chain [1] start processing
+2025-01-21 17:42:24,083 - INFO - Chain [1] done processing
+2025-01-21 17:42:24,379 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:24,397 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/76h4gez6.json
+2025-01-21 17:42:24,534 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/3yag9iyu.json
+2025-01-21 17:42:24,536 - DEBUG - idx 0
+2025-01-21 17:42:24,536 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:24,537 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=52106', 'data', 'file=/tmp/tmpd4fko9aw/76h4gez6.json', 'init=/tmp/tmpd4fko9aw/3yag9iyu.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model4y9yb544/prophet_model-20250121174224.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:24,537 - INFO - Chain [1] start processing
+2025-01-21 17:42:24,637 - INFO - Chain [1] done processing
+2025-01-21 17:42:24,918 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-01-21 17:42:24,931 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/55g_sv4m.json
+2025-01-21 17:42:24,985 - DEBUG - input tempfile: /tmp/tmpd4fko9aw/aes9eund.json
+2025-01-21 17:42:24,987 - DEBUG - idx 0
+2025-01-21 17:42:24,987 - DEBUG - running CmdStan, num_threads: None
+2025-01-21 17:42:24,988 - DEBUG - CmdStan args: ['/mnt/d/Work - Data/Projects/GitHub/BiscuitLab/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=92766', 'data', 'file=/tmp/tmpd4fko9aw/55g_sv4m.json', 'init=/tmp/tmpd4fko9aw/aes9eund.json', 'output', 'file=/tmp/tmpd4fko9aw/prophet_model00tznv5h/prophet_model-20250121174224.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-01-21 17:42:24,988 - INFO - Chain [1] start processing
+2025-01-21 17:42:25,095 - INFO - Chain [1] done processing

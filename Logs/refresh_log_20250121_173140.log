@@ -1,0 +1,7 @@
+2025-01-21 17:31:54,880 - INFO - Successfully loaded file: Analyse15j_Fontenelles_IM_9Jan2025.csv
+2025-01-21 17:31:54,930 - INFO - Aggregated bi-weekly data by 'Article'. Rows after aggregation: 119
+2025-01-21 17:31:54,937 - INFO - Formatted bi-weekly data into the required structure.
+2025-01-21 17:31:54,939 - INFO - Filtered new entries after cutoff date (2025-01-09 00:00:00). Rows after filtering: 0
+2025-01-21 17:31:54,954 - INFO - Merged new entries with historical data to check for duplicates and conflicts.
+2025-01-21 17:31:54,956 - INFO - Identified 0 duplicates, 0 conflicts, and 0 new rows.
+2025-01-21 17:31:54,956 - INFO - No new entries were added.
