@@ -125,7 +125,7 @@ def clean_article_names():
     # Merge the mapping with the all_pos_sales_units_prices dataframe
     mapping_path=os.path.join(os.getcwd(), 'Data', 'to_explore','unique_article_names_for_mapping.xlsx')
     mapping = pd.read_excel(mapping_path)
-    historical_sales_units_prices = historical_sales_data.merge(mapping, left_on='Article_name',\
+    historical_sales_units_prices = st.session_state.historical_data.merge(mapping, left_on='Article_name',\
     right_on='Initial_article_name', how='left')
     # Replace the Article_name with the renamed_article
     historical_sales_units_prices['Article_name'] = historical_sales_units_prices['Renamed_article']
