@@ -13,7 +13,7 @@ import time
 import logging
 
 # Set page title and layout
-st.set_page_config(page_title="Sales Analysis and Prediction App") #, layout="wide"
+st.set_page_config(page_title="Sales Analysis and Prediction App", layout="wide")
 
 # Landing Page Header
 st.title("Sales Analysis and Prediction App")
