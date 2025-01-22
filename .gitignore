@@ -1,7 +1,7 @@
 .env
 /Data/external_data/*
 /Data/transformed_data/*
-/Data/to_explore
+/Data/to_explore/*
 /Data/rough_data/*
 /Data/projections/*
 /Data/external_data/*
@@ -17,3 +17,4 @@
 !/Data/to_explore/unique_article_names_for_mapping.xlsx
 !/Models/fitted_models_results.pkl
 !/Data/external_data/holidays.csv
+!/Data/to_explore/unique_article_names_for_mapping.xlsx
